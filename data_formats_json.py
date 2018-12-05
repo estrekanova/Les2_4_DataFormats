@@ -24,8 +24,10 @@ for item in words_dict:
 words_list.sort(reverse=True)
 
 print('10 наиболее часто встречающихся слов:')
-for i, item in enumerate(words_list):
-    if i < 6:
-        print(item[1])
+for item in words_list[:10]:
+    print(item[1])
+# for i, item in enumerate(words_list):
+#     if i < 6:
+#         print(item[1])
 
 
